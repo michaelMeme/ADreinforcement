@@ -1,0 +1,13 @@
+{
+  "name": "adreinforcement",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only Cloudflare D1 access + LLM Council self-reinforcing analysis loop for WooLA Shopee ad profit analysis",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "d1:schema": "node scripts/d1-schema.mjs",
+    "d1:query": "node scripts/d1-query.mjs",
+    "d1:snapshot": "node scripts/d1-snapshot.mjs"
+  }
+}
